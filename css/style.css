@@ -1,0 +1,9 @@
+.style_section{
+    display: flex;
+
+}
+.classModule {
+    width: 400px;
+    height: 200px;
+    background: chartreuse;
+}
