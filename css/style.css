@@ -1,35 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
+html {
+box-sizing: border-box;
+}
+*:before;
+*::after {
     box-sizing: border-box;
 }
+
 #body{
     background-color: #ffffff;
-}
-header {
-    margin: 30px;
-}
-.menu{
     margin: 0 auto;
-    width: 400 px;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
     list-style: none;
-    text-decoration: none;
+
 }
 .menu li{
-    display: inline;
-    margin-left: 75px;
+    display: inline-block;
+    margin-left: 90px;
+    vertical-align: middle;
+    
 }
-a{
-    margin-left: 180px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    text-shadow: black;
-    font-size: 20px;
+
+.menu li:not(:last-child){
+    margin-right: 60px;
 }
-main {
+.container {
     width: 1100px;
-    margin: 100px auto 0;
+    margin: 0 auto;
+    background: #ffffff;
+
 }
+
 article {
     margin: 10px;
     width: 500px;
@@ -43,8 +48,8 @@ article {
 
 img {
     display: inline-block;
-    height: 350px;
-    width: 100% auto;
+    height: auto;
+    max-width: 100%;
 }
 h2 {
     margin: 30px;
