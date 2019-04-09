@@ -5,24 +5,29 @@ box-sizing: border-box;
 *::after {
     box-sizing: border-box;
 }
-
+.nav{
+    margin: 60px;
+}
 #body{
     background-color: #ffffff;
     margin: 0 auto;
 }
 
 .menu{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-size: 30px;
     list-style: none;
 
 }
+
 .menu li{
     display: inline-block;
     margin-left: 90px;
-    vertical-align: middle;
-    
+    list-style: none;
+}
+ a {
+    text-decoration: none;
 }
 
 .menu li:not(:last-child){
@@ -32,6 +37,7 @@ box-sizing: border-box;
     width: 1100px;
     margin: 0 auto;
     background: #ffffff;
+    list-style: none;
 
 }
 
@@ -65,6 +71,4 @@ h2 {
     display: block;
     padding: 30px;
     font-size: 30px;
-
-    
 }
