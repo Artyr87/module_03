@@ -1,74 +1,105 @@
+*{outline: 2px solid red;}
+
 html {
 box-sizing: border-box;
+
 }
 *:before;
 *::after {
     box-sizing: border-box;
 }
-.nav{
-    margin: 60px;
+.header {
+    margin-bottom: 18px;
+    padding-top: 10px;
+    border: 10px;
+    margin: 0auto;
 }
+
 #body{
     background-color: #ffffff;
     margin: 0 auto;
 }
 
-.menu{
+.menu{    
     margin: 0 auto;
     padding: 0;
-    font-size: 30px;
+    font-size: 0;
     list-style: none;
-
+    width: 500px;
+    margin: 0 auto;
 }
 
 .menu li{
+    /* background: #ffffff; */
     display: inline-block;
-    margin-left: 90px;
+    margin-right: 100px;
     list-style: none;
-}
- a {
-    text-decoration: none;
 }
 
-.menu li:not(:last-child){
-    margin-right: 60px;
+
+.menu li:last-child {
+    margin-right: 0px;
 }
+ 
+.menu a {
+    font-size: 16px;
+    text-decoration: none;    
+}
+
 .container {
-    width: 1100px;
+    width: 900px;
     margin: 0 auto;
-    background: #ffffff;
+    /* background: #ffffff; */
     list-style: none;
+    font-size: 0px;
 
 }
 
 article {
-    margin: 10px;
-    width: 500px;
-    border: 20px;
+   /*margin: 10px;*/
+    margin-right: 60px;
+    width: 420px;
+    /*border: 20px;*/
     display: inline-block;
+}
+article:nth-child(2n) {
+    margin-right: 0px;
 }
 .step{
     display: inline-block;
-     margin-left: 60px;
+     /*margin-left: 60px;*/
+     margin: 0 auto;
 }
 
 img {
-    display: inline-block;
+   
+    display: block;
     height: auto;
     max-width: 100%;
 }
-h2 {
-    margin: 30px;
+p {
+    margin-bottom: 18px;
 }
 .page {
-    margin: 10px;
+   margin: 0px;
     font-size: 15px;
     text-decoration: none;
+    margin-bottom: 3px;
 }
 .button {
     background-color: #ffffff;
-    margin: 50px auto 0;
+    margin: 20px auto 0;
     display: block;
     padding: 30px;
     font-size: 30px;
 }
+.h{
+    font-size: 16px;
+}
+.text{
+    font-size: 16px;
+}
+/* p {
+    margin: 0;
+} */
+
