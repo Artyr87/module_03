@@ -1,4 +1,4 @@
-*{outline: 2px solid red;}
+
 
 html {
 box-sizing: border-box;
@@ -9,10 +9,13 @@ box-sizing: border-box;
     box-sizing: border-box;
 }
 .header {
-    margin-bottom: 18px;
-    padding-top: 10px;
+    margin-bottom: 105px;
+    padding-top: 80px;
     border: 10px;
     margin: 0auto;
+}
+ul {
+    font-size: 0;
 }
 
 #body{
@@ -56,10 +59,10 @@ box-sizing: border-box;
 }
 
 article {
-   /*margin: 10px;*/
+   /* margin: 10px; */
     margin-right: 60px;
     width: 420px;
-    /*border: 20px;*/
+    /* border: 20px; */
     display: inline-block;
 }
 article:nth-child(2n) {
@@ -88,18 +91,32 @@ p {
 }
 .button {
     background-color: #ffffff;
-    margin: 20px auto 0;
+    margin: 0 auto;
+    height: 58px;
+    width: 158px;
+    border-width: 1px;
+    border-color: rbg (98,98,98);
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 20px;
     display: block;
     padding: 30px;
-    font-size: 30px;
+    font-size: 20px;
+    
 }
+
+.button:hover {
+    background: rgb(70, 33, 235));
+}
+
 .h{
     font-size: 16px;
 }
 .text{
-    font-size: 16px;
+    font-size: 15px;
 }
-/* p {
+ /* .p {  
     margin: 0;
-} */
+}  */
 
