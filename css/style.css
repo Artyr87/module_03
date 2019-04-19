@@ -79,19 +79,24 @@ img {
     display: block;
     height: auto;
     max-width: 100%;
+    margin-bottom: 18px;
 }
 p {
     margin-bottom: 18px;
+    margin: 0 auto;
 }
 .page {
-   margin: 0px;
+  margin: 0px;
     font-size: 15px;
     text-decoration: none;
-    margin-bottom: 3px;
+    /* margin-bottom: 3px; */
+
+
 }
 .button {
+    vertical-align: center;
     background-color: #ffffff;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
     height: 58px;
     width: 158px;
     border-width: 1px;
@@ -104,6 +109,7 @@ p {
     padding: 30px;
     font-size: 20px;
     
+    
 }
 
 .button:hover {
@@ -112,11 +118,14 @@ p {
 
 .h{
     font-size: 16px;
+    margin-bottom: 18px;
 }
 .text{
+    margin-bottom: 18px;
+    /* margin: 0px; */
     font-size: 15px;
 }
- /* .p {  
+ .p {   
     margin: 0;
-}  */
+}  
 
